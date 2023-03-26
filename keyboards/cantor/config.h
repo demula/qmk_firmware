@@ -7,6 +7,18 @@
 #define SERIAL_USART_TX_PIN B6     // USART TX pin
 #define SERIAL_USART_RX_PIN B7     // USART RX pin
 
+/* Top left key on left half */
+#define BOOTMAGIC_LITE_ROW    0
+#define BOOTMAGIC_LITE_COLUMN 0
+/* Top right key on right half */
+#define BOOTMAGIC_LITE_ROW_RIGHT    4
+#define BOOTMAGIC_LITE_COLUMN_RIGHT 5
+
+/* Tap-Mod configuration */
+#define TAPPING_TERM 300
+#define PERMISSIVE_HOLD
+#define TAPPING_FORCE_HOLD
+
 /*
  * Feature disable options
  *  These options are also useful to firmware size reduction.
